@@ -4,6 +4,7 @@
 namespace App\Models;
 
 
+//use App\Db;
 use App\Models;
 
 class User extends Models
@@ -17,6 +18,9 @@ class User extends Models
     public function getName()
     {
         // TODO: Implement getName() method.
+
+
+//        $db = new Db() ;
     }
 
 

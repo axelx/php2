@@ -2,6 +2,9 @@
 
 require __DIR__ . '/autoload.php';
 
+//use App\Models\User;
+
+
 echo "<pre>";
 
 
@@ -9,10 +12,10 @@ echo "<br>";
 
 $users = \App\Models\User::findAll();
 
-echo \App\Models\User::$table;
+//echo \App\Models\User::$table;
 echo "<br>";
 echo "<br>";
-echo \App\Models\User::TABLE;
+//echo \App\Models\User::TABLE;
 echo "<br>";
 
 var_dump($users);
