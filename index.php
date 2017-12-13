@@ -4,7 +4,7 @@ require __DIR__ . '/autoload.php';
 
 echo "<pre>";
 
-//echo \App\Models\User::class;
+echo \App\Models\User::class;
 
 echo "<br>";
 //$db  = new \App\Db();
@@ -26,7 +26,10 @@ $users = \App\Models\User::findAll();
 
 //echo $user->getClass();
 //echo $user->getEmail();
+echo \App\Models\User::$table;
 echo "<br>";
+echo "<br>";
+echo \App\Models\User::TABLE;
 echo "<br>";
 
 var_dump($users);
