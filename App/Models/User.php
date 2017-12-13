@@ -14,7 +14,10 @@ class User extends Models
     public static $table = 'users';
     const TABLE = 'users';
 
-
+    public function getName()
+    {
+        // TODO: Implement getName() method.
+    }
 
 
 }

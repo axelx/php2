@@ -11,7 +11,7 @@ namespace App;
 
 
 
-class Models
+abstract class Models
 {
     const TABLE = '';
 
@@ -27,4 +27,5 @@ class Models
 
 
     }
+    abstract public function getName();
 }
